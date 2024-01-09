@@ -1,2 +1,6 @@
-# csd-340
-Web Development with HTML and CSS
+# CSD 340 Web Development with HTML and CS
+
+## Contributors
+..* Professor Sue Sampson
+..* Daniel (Cody) Ferre
+
