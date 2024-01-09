@@ -2,5 +2,5 @@
 
 ## Contributors
 ..* Professor Sue Sampson
-..* Daniel (Cody) Ferre
+ ..* Daniel (Cody) Ferre
 
