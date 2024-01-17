@@ -1,0 +1,36 @@
+
+container{
+		margin-top: 50px;
+		margin-left: 100px;
+		margin-right: 100px;}
+		
+h1{
+	color: white;
+	background-color: DeepskyBlue;
+	border: 1px;
+	border-color: #D6A800;
+	padding: 10px;}
+h2{
+	color: white;
+	background-color: DeepSkyBlue;
+	border: 1px;
+	border-color: #D6A800;
+	padding: 10px;}
+h3{
+	color: white;
+	background-color: DeepSkyBlue;
+	border: 1px;
+	border-color: #D6A800;
+	padding: 10px;}
+h4{
+	color: white;
+	background-color: DeepSkyBlue;
+	border: 1px;
+	border-color: #D6A800;
+	padding: 10px;}
+a{
+	color: SlateBlue;}
+a:hover{
+	color: black;}
+a:visited{
+	color: gray;}
