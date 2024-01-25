@@ -1,0 +1,75 @@
+h1{
+	text-align: center;
+	color: rgba(0,0,255,1);
+}
+.image-gallery{
+	margin-top: 10%;
+	display: grid;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row: 1;
+}
+h3{
+	text-align: center;
+	color: rgba(60,179,113,10)
+}
+figure{
+	text-align: center;
+}
+img{
+	border-radius: 8px;
+	padding: 5px;
+	width: 150px;
+}
+figcaption{
+	font-style: italic;
+	font-size: .75em;
+	text-align: center;
+	color: rgba(106,90,205,1)
+}
+.left{
+	grid-column: 1;
+	border: 1px solid rgba(255,165,0,1);
+}
+.hover_left{
+	display: none;
+}
+.book_left:hover + .hover_left{
+	display: block;
+	color: rgba(255,0,0,1)
+}
+.center{
+	grid-column: 2;
+	border: 1px solid rgba(255,165,0,1);
+}
+.hover_center{
+	display: none;
+}
+.book_center:hover + .hover_center{
+	display: block;
+	color: rgba(255,0,0,1)
+}
+.right{
+	grid-column: 3;
+	border: 1px solid rgba(255,165,0,1);
+}
+.hover_right{
+	display: none;
+}
+.book_right:hover + .hover_right{
+	display: block;
+	color: rgba(255,0,0,1)
+}
+a{
+	margin-bottom: 20px;
+	text-decoration: none;
+	position: absolute;
+	bottom: 0px;
+	right: 5px;
+}
+a:hover{
+	text-decoration: underline;
+}
+a:visited{
+	color: gray;
+}
