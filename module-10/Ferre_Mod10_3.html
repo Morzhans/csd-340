@@ -1,0 +1,48 @@
+<!-- Cody Ferre : Assignment 10.3 : 02/25/2024 -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" 
+			content="text/html; charset=utf-8" />
+		<meta name="description" 
+			content="Assignment 10.3" />
+		<meta http-equiv="pragma"
+			content="no-cache" />
+		<meta name="robots"
+			content="nofollow" />
+		<link rel="stylesheet" href="Ferre_Mod10_3.css" type="text/css" />
+		
+		<title>CSD 340 Development with HTML and CSS</title>
+	<script>
+		function displayImage(imageFile){
+			var largeImage = document.getElementByID("main");
+			var newNode = document.createElement("img");
+			newNode.id = "main";
+			newNode.src = imageFile;
+			newNOde.alt = "Large Image";
+			newNode.className = "main";
+			newNode.style.width = "300px";
+			newNode.style.height = "300px";
+			largeImage.parentNode.replaceChild(newNode, largeImage);
+			}
+	</script>
+	</head>
+	<body>
+		<h1>Assignment 1.3: JavaScript - Part 2</h1>
+		<div id="first">
+				<a href=#
+					onclick="snek.src='images/Sneklol.jpg';"
+					onmouseout="snek.src='images/Snekjoke.jpg';">
+				<img border = 0 name = "snek" src = "images/Snekjoke.jpg"></a>
+				<figcaption>What do you call a Snake not wearing any clothes? Click the image to find out!</figcaption>
+		</div>
+		<br />
+		<div id="second">
+				<a href=#
+					onmouseover="liz.src='images/Lizdark.jpg';"
+					onmouseout="liz.src='images/Lizyell.jpg';">
+				<img border = 0 name ="liz" src = "images/lizyell.jpg"></a>
+				<figcaption>Mouseover so I can hide under your pointers shadow!</figcaption>
+		</div>	
+	</body>
+</html>

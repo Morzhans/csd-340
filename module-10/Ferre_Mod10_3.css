@@ -1,0 +1,19 @@
+header{
+	background-color: #00008B;
+	color: white;
+	padding: 20px;
+	text-align: center;	
+}
+h1{
+	font-weight: 400;
+}
+#first a {
+	display: flex;
+	width: 300px;
+	height: 300px;
+}
+#second a {
+	display: flex;
+	width: 300px;
+	height: 300px;
+}
