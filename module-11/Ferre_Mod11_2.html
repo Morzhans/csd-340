@@ -1,0 +1,61 @@
+<!-- Cody Ferre : Assignment11.2 : 03/03/2024 -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" 
+			content="text/html; charset=utf-8" />
+		<link rel="stylesheet" href="Ferre_Mod11_2.css" type="text/css" />
+		<title>CSD 340 Web Development with HTML and CSS</title>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Assignment 11.2: Javascript - Part 3</h1>
+			<br>
+			<p>This is a Shopping List Webpage. Allowing you to add your groceries to a list, delete the last one added, and displaying that list. 
+				<ul>
+				<li>Click and type within the "Input Here!" box, then click the "Add" button.</li>
+				<li>To remove the last item, click the "Delete Last Entry" button.</li>
+				<li>To display the list, click the "Display" button.</li>
+				</ul>
+			</p>
+    <br>
+	<form action="/url" method="GET">
+      <label>
+        <input type="text" name="input" minlength="3" placeholder="Input Here!">
+      </label>
+		<button type="button" onclick="add()">Add</button>
+		<button type="button" onclick="Array.pop()">Delete Last Entry</button>
+		<button type="button" onclick="display()">Display</button>
+    </form>
+    <br>
+    <hr>
+    <br>
+    <div id="output"></div>
+  </div>
+
+  <script>
+    var Array = [];
+    var arraySize = Array.length;
+
+    function add() {
+      var input = document.querySelector('input[name="input"]').value;
+      Array.push(input);
+      alert('Added  ' + input + 'to the Grocery List.');
+    }
+	function display() {
+		displayArray();
+	}
+    function displayArray() {
+      var output = document.getElementById('output');
+      output.innerHTML = '<ul>';
+      for (var i = 0; i < Array.length; i++) {
+        output.innerHTML += '<li>' + (i + 1) + '. ' + Array[i] + '</li>';
+      }
+      output.innerHTML += '</ul>';
+    }
+  </script>	
+</div>
+
+	</body>
+
+</html>
